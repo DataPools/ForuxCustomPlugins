@@ -6,3 +6,7 @@ Basically, what it does is that when a players' balance goes over a specified am
 Example:
 My balance reaches $10,000 a message is given saying I have reached $10,000 and gained a kit permission. My balance goes underneath $10,000 a message is given to me that my balance is under $10,000 and I have lost my kit permission. Say I reach $10,000 (I get the kit) and then get $100,000, a message is given to me that I reached $100,000 and I have a special warp.
 
+Permissions: 
+-ecorewards.use - Permission to open the GUI menu
+-ecorewards.reload - Admin permission to reload the config
+
