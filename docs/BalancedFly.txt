@@ -1,0 +1,7 @@
+Suggested name: BalancedFly
+ 
+What I want: When /fly (From Essentials) is toggled on ONLY (Only when fly is being enabled) there should be a configurable warm up during which the player cannot take damage or move (If they do, the command will be cancelled)
+ 
+Ideas for commands: No commands needed for this plugin.
+ 
+Ideas for permissions: balancedfly.bypass - Allows anyone with the permission (Default OPS only) to be able to bypass the fly warmup

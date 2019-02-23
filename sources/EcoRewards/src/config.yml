@@ -1,0 +1,48 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#                                                                       # 
+#  This configuration is for EcoRewards. All keys have accompanying     #
+#  comment descriptions upon file generation; these comments may NOT    #
+#  remain after new values are loaded by the plugin. Any questions      #
+#  about configuration should be directed to Exloki at [Redacted]       #
+#                                                                       #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#
+# ITEMSTRINGS
+#
+# An 'itemstring' is a string (sentence) representing an in-game item
+# Itemstrings should be defined in the format key.value
+# The following key value pairs are available:
+#
+# |   KEY   |                          VALUE                           |
+# |   id    | the material enum value, i.e. STONE                      |
+# |   du    | the item durability (damage value)                       |
+# |   am    | the amount for the item, can exceed 64                   |
+# |   na    | the display name for the item                            |
+# |   lo    | string to add as a lore to the item                      |
+# |   en    | enchantment enum value, i.e. JUMP, followed by .<level>  |
+# |   co    | RGB colour codes for leather armour, in the format r,g,b |
+#
+# Example: id.STONE am.32 na.&4This_is_32_stone lo.&6This_is_stone_lore lo.&7So_is_this en.sharpness.3
+#
+# Refer to https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html for available material enum values
+
+# This is the prefix
+prefix: '[EcoRewards] '
+
+gui-title: '&6&lEcoRewards'
+
+tiers:
+  150000:
+    display-item-data: 'id.DIAMOND_BLOCK am.1 na.&6$150,000'
+    granted-message: 'Message goes here'
+    revoked-message: 'Other Message goes here'
+    permissions:
+      - 'sample.permisison.node'
+      - 'sample.permisison.other'
+  10000:
+    display-item-data: 'id.IRON_BLOCK am.1 na.&6$10,000'
+    granted-message: 'Message goes here'
+    revoked-message: 'Other Message goes here'
+    permissions:
+      - 'sample.permisison.node'
+      - 'sample.permisison.other'

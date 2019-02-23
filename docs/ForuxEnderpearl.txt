@@ -1,0 +1,3 @@
+ForuxEnderpearl reduces enderpearl damage based upon what permissions a user has.
+
+This can be used for giving perks to Faction subtypes or ranks.

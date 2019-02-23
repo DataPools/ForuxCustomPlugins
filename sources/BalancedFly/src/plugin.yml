@@ -1,0 +1,7 @@
+name: BalancedFly
+main: com.exloki.balancedfly.BalancedFlyMain
+version: 0.0.1
+description: An ExLoki custom plugin [1.8]
+authors: [Exloki]
+depend: [Essentials, WorldGuard]
+website: http://www.exloki.com/

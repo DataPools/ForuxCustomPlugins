@@ -1,0 +1,10 @@
+name: ForuxEffects
+main: com.exloki.foruxe.ForuxEffects
+version: 1.0.0
+description: An ExLoki custom plugin [1.8]
+authors: [Exloki]
+website: http://www.exloki.com/
+
+commands:
+  foruxeffects:
+    description: /<command>

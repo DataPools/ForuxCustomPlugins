@@ -1,0 +1,12 @@
+{
+  "permissionToEffectsMap": {
+    "permission.node.1": [
+      "POTION_EFFECT_TYPE 1",
+      "POTION_EFFECT_TYPE 2"
+    ],
+    "permission.node.2": [
+      "POTION_EFFECT_TYPE 1",
+      "POTION_EFFECT_TYPE 2"
+    ]
+  }
+}

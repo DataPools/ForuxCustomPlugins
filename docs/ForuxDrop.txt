@@ -1,0 +1,11 @@
+I need a supply drop plugin named ForuxDrop with the features of:
+ 
+- Airdrops are simply chests surrounded by iron bars that drop from the sky
+ 
+- Random Drops, which will drop one of the configured packages (in the config) at random between the minimumX & minimumZ, and maximumX & maximumZ (Specified in config). It will also broadcast a message specifying what coordinates it dropped the airdrop (Also specifiable in the config)
+ 
+- Will drop every time interval like one airdrop is to be dropped every 30 minutes (Again Configureable in the config)
+ 
+- Allows the player to order certain airdrops with the command /drop, it will bring up a GUI showing the different packages of Airdrops and what price they are (Hook on to Vault) (Prices to specified in config). It will drop the package 3 blocks in front of the player.
+ 
+-In claimed Faction & WorldGuard territory/regions, airdrops cannot be summoned using /drop by the player. If summoned by the player in these regions the plugin will give the message "You cannot buy a package in claimed areas"

@@ -1,0 +1,3 @@
+VirtualFurnace 
+Players can access a virtual furnace through the /furnace command
+Permission: virtualfurnace.use

@@ -1,0 +1,11 @@
+name: ForuxDrop
+main: com.exloki.foruxd.ForuxDrop
+version: 0.0.1
+description: An ExLoki custom plugin [1.8]
+authors: [Exloki]
+depend: [Factions, Vault, WorldGuard]
+website: http://www.exloki.com/
+
+commands:
+  drop:
+    description: /<command>

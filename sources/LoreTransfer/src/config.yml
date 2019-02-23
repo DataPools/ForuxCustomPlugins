@@ -1,0 +1,11 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#                                                                       # 
+#  This configuration is for <plug_name>. All keys have accompanying    #
+#  comment descriptions upon file generation; these comments may NOT    #
+#  remain after new values are loaded by the plugin. Any questions      #
+#  about configuration should be directed to Exloki at [Redacted]       #
+#                                                                       #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+# This is the prefix
+prefix: '[Prefix] '

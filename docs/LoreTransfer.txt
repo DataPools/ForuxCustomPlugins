@@ -1,0 +1,7 @@
+Name: LoreTransfer
+I need this plugin to basically allow books with custom enchants from the plugin EnchantsPlus to be able to be used like normal enchant books.
+ 
+Books with the special custom enchant lores will carry over into the final item product. To sum it up: Books with special custom enchant lore from EnchantsPlus behave exactly as normal enchant books would in an anvil.
+
+Example:
+I combine a diamond sword and a custom enchant book with JUST the lore: "Hi!", the final product comes out with a diamond sword with the lore "Hi!"

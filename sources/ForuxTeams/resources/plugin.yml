@@ -1,0 +1,9 @@
+name: ForuxTeams
+main: net.richardsprojects.foruxteams.ForuxTeams
+version: 1.0.0
+
+commands:
+  team:
+    description: All the team commands. Use /team help for a reference of all the commands.
+    usage: /<command> <argument>
+    permission: teams.use

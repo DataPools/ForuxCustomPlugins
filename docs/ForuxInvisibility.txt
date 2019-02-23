@@ -1,0 +1,10 @@
+Name: ForuxInvisibility
+Features:
+ 
+- Players with the permissions foruxinvisibility.use get to use the command /invisible. Once they do so they will become invisible (they just get the invisibility effect, so it shows armor.) This invisibility has an infinite effect until the player that is invisible does damage to another player or breaks/place blocks. Interacting with objects will also take the invisibility away. Once their invisibility has been taken away the player has a configurable cooldown (configurable in the config) on /invisible. If they have not had their invisibility taken away the cooldown on the command does NOT apply. If the player does /invisible again and it has not been taken away by interacting with other objects, JUST their invisibility effect gets taken away.
+ 
+-When the player's cooldown on /invisible has not ended and the player tries to use it, the plugin gives a configurable message to the player.
+ 
+-Players with the foruxinvisibilty.bypass get to bypass all /invisible cooldowns.
+ 
+-Once the player goes invisible, a message is told to them which is configurable in the config. Once they turn off their invisibility or it gets taken away they get a different message (Configurable in the config).

@@ -1,0 +1,18 @@
+Name: FactionsSubtypes
+ 
+I want players to be able to create Factions with a special subtype (Hook on to Factions). Subtypes have names and each one has different permissions associated with it. Permissions and subtypes name are specified in the config. Once a player chooses a faction subtype when making their Faction, everyone in the Faction, get the permissions associated with that subtype. When a new player joins the Faction they also get the permissions of that Faction's subtype. Once people leave,or the Faction is disbanded the specified permissions are taken away.
+ 
+With /f faction <faction name>, the Factions plugin will list the the faction subtype along with the other Faction details.
+ 
+Commands:
+/f create <faction subtype> <faction name> - (This replaces the original /f create that comes with Factions, choosing a subtype is mandatory) The player must choose their Faction subtype and Faction name.If subtype is not a valid subtype, displays message "The subtype you specified is not valid"
+ 
+/f list [faction subtype] - adds the optional ability to filter factions by subtype with /f list.
+ 
+Permissions:
+None
+ 
+The plugin will hook onto the original Factions plugin.
+Hook onto Factions 2.7.5 and Massivecraft 2.7.5
+ 
+Must be Compatible with PaperSpigot 1.8.4

@@ -1,0 +1,10 @@
+name: EcoRewards
+main: com.exloki.forux.ecorewards.EcoRewards
+version: 0.0.1
+description: An ExLoki custom plugin [1.8]
+authors: [Exloki]
+website: http://www.exloki.com/
+
+commands:
+  ecorewards:
+    description: /<command>

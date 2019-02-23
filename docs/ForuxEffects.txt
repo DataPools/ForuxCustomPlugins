@@ -1,0 +1,4 @@
+ForuxEffects
+Essentially a plugin that allows you to define potion effects that players with permissions have.
+
+The config can explain it much better than I can.

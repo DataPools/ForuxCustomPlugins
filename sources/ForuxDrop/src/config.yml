@@ -1,0 +1,72 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#                                                                       # 
+#  This configuration is for ForuxDrop. All keys have accompanying      #
+#  comment descriptions upon file generation; these comments may NOT    #
+#  remain after new values are loaded by the plugin. Any questions      #
+#  about configuration should be directed to Exloki at [Redacted]       #
+#                                                                       #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+# PREFACE NOTES:
+#
+# N.B. The values in the default generated configuration will NOT WORK - you must edit this config before use
+#
+# ITEMSTRINGS
+#
+# An 'itemstring' is a string (sentence) representing an in-game item
+# Itemstrings should be defined in the format key.value
+# The following key value pairs are available:
+#
+# |   KEY   |                          VALUE                           |
+# |   id    | the material enum value, i.e. STONE                      |
+# |   du    | the item durability (damage value)                       |
+# |   am    | the amount for the item, can exceed 64                   |
+# |   na    | the display name for the item                            |
+# |   lo    | string to add as a lore to the item                      |
+# |   en    | enchantment enum value, i.e. JUMP, followed by .<level>  |
+# |   co    | RGB colour codes for leather armour, in the format r,g,b |
+#
+# Example: id.STONE am.32 na.&4This_is_32_stone lo.&6This_is_stone_lore lo.&7So_is_this en.sharpness.3
+#
+# Refer to https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html for available material enum values
+
+# This is the prefix
+prefix: 'Forux Drop'
+
+# Defines the random air drop functionality
+random_air_drops:
+  # The names of worlds possible for random air drops
+  worlds:
+    - 'world'
+  # Minimum X value for the random air drop
+  minimum_x: -1000
+  # Maximum X value for the random air drop
+  maximum_x: 1000
+  # Minimum Z value for the random air drop
+  minimum_z: -1000
+  # Maximum Z value for the random air drop
+  maximum_z: 1000
+  # The time (in seconds) between random air drops
+  interval_in_seconds: 3600
+  # The message to be broadcast when the random air drop arrives
+  # <world> <x> <y> <z> will all be replaced by actual location values
+  broadcast_message: 'A package is coming in at <world>: <x>, <y>, <z>!'
+
+# Defines the details of the /drop GUI
+drop_menu:
+  # Sets the title of the inventory which shows at the top
+  title: '&4&lAir Drops'
+
+
+# Defines the 'package' (inventory) of each air drop
+air_drop_packages:
+  # Defines the name for this package
+  'basic':
+    # Defines the item used to display this package in the GUI menu
+    display_item: ITEM_STRING
+    # Set the price for this air drop in /drop
+    drop_menu_price: 1000.0
+    # Defines the items contained in the package using item strings; please refer to # ITEMSTRINGS for details
+    items:
+      - ITEM_STRING
+      - ITEM_STRING

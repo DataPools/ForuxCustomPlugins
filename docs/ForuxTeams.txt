@@ -1,0 +1,21 @@
+ForuxTeams
+Teams plugin
+This plugin is meant for a survival server. This is meant to allow players team up together. Teams cannot have more than 4 players (However they can have less). People in teams cannot damage their team mates. Team mates can also teleport to each other. Teams have a special "team chat" that is only shown to members of their team. There is also multi-world support. In the config, the teleport function can be disabled in certain worlds and team friendly fire can be allowed in certain worlds.
+ 
+Commands:
+/team create - Create a team. Person who creates team is the only one who can invite people
+/team invite <player> - Used to invite other players to their team.
+/team teleport <player> - Used to teleport to other team mates. Players cannot teleport to others not in their team.
+/team leave - Allows the player to leave the team. If team leader leaves, the entire team is disbanded and all players in that team are kicked from the team.
+/team kick <player>  - Can only be used by team owner (person who created team). Allows the team owner to kick a player out of the team.
+/team chat <message> - Puts a specified message into team chat
+/team help - Shows a list of these commands and their functions.
+/team list - Lists all members of the team
+ 
+Permissions:
+teams.use - Allows access to all team functions
+ 
+Closing notes:
+A maximum of 4 players can be on one team. There can be less than 4 however.
+Teammates cannot hit each other unless they are in a world where team friendly fire is disabled. Worlds are specified in config.
+

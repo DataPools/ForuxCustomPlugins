@@ -1,0 +1,10 @@
+name: ForuxMOTD
+main: com.exloki.foruxmotd.ForuxMOTD
+version: 0.0.1
+description: An ExLoki custom plugin [1.8]
+authors: [Exloki]
+website: http://www.exloki.com/
+
+commands:
+  motd:
+    description: Message of the day

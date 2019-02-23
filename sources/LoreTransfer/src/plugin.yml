@@ -1,0 +1,10 @@
+name: LoreTransfer
+main: com.exloki.loretransfer.LoreTransfer
+version: 0.0.1
+description: An ExLoki custom plugin [1.8]
+authors: [Exloki]
+website: http://www.exloki.com/
+
+commands:
+  loretransfer:
+    description: /<command>
